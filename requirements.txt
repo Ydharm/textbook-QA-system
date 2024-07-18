@@ -1,0 +1,6 @@
+fitz
+whoosh
+torch
+faiss-cpu
+transformers
+streamlit
