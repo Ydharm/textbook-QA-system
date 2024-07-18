@@ -49,4 +49,4 @@ This project is licensed under the [MIT license] License - see the [LICENSE.md](
 - [Acknowledge contributors, libraries, or datasets that significantly contributed to the project.]
 
 ## Contact
-For questions or further information, please contact [Dharmpal Yadav] via [ydharmpal622@gmail.com].
+For questions or further information, please contact [Dharmpal Yadav] via [ydharmpal688@gmail.com].
