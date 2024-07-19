@@ -17,12 +17,12 @@ sigmoid activation
 
 ## Dataset and Models
 - **Dataset:** [Here I add three books in my data folder and for QA system I used the ML_BOOK.pdf ]
-##How to Run the System
--**Clone the Repository** 1. git clone https://github.com/yourusername/Textbook-QA-System.git
-. cd Textbook-QA-System
--**Create a Conda Environment** 1.  conda create -n textbook-qa python=3.8 -y
-2. conda activate textbook-qa
--**Run the Application**
+## How to Run the System
+-**Clone the Repository:**  git clone https://github.com/yourusername/Textbook-QA-System.git
+cd Textbook-QA-System
+-**Create a Conda Environment:** conda create -n textbook-qa python=3.8 -y
+conda activate textbook-qa
+-**Run the Application:**
   python app.py
 ## Roadmap
 -**Content Extraction:**
