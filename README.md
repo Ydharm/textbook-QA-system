@@ -17,19 +17,19 @@ sigmoid activation
 
 ## Dataset and Models
 - **Dataset:** [Here I add three books in my data folder and for QA system I used the ML_BOOK.pdf ]
-- **Example Libraries and Tools:**
-BeautifulSoup: For web scraping and HTML parsing.
-pdfminer: For extracting text from PDF files.
-NLTK: For natural language processing tasks including stemming and tokenization.
-spaCy: For advanced NLP tasks like entity recognition and dependency parsing.
-Hugging Face Transformers: For pre-trained language models and pipelines.
-
+##How to Run the System
+-**Clone the Repository** 1. git clone https://github.com/yourusername/Textbook-QA-System.git
+. cd Textbook-QA-System
+-**Create a Conda Environment** 1.  conda create -n textbook-qa python=3.8 -y
+2. conda activate textbook-qa
+-**Run the Application**
+  python app.py
 ## Roadmap
 -**Content Extraction:**
 For extracting content from textbooks, you can use libraries like BeautifulSoup for HTML parsing if the textbooks are in digital format, or pdfminer if they are in PDF format. These tools will help in extracting text accurately from each page or section.
 
 -**Hierarchical Tree-based Indexing:**
-To create a hierarchical tree-based index, you can structure the content into nodes representing the textbook, chapters, sections, and subsections. Use Python's built-in data structures like dictionaries or custom classes to represent these nodes. No specific pre-trained models are needed for this stage, but efficient data structuring and management are crucial.
+To create a hierarchical tree-based index, you can structure the content into nodes representing the textbook, chapters, sections, and subsections.
 
 -**Retrieval Techniques:**
 Query Expansion: Use NLTK or spaCy for techniques like synonym expansion and stemming to enhance query terms.
@@ -38,8 +38,6 @@ Query Expansion: Use NLTK or spaCy for techniques like synonym expansion and ste
 
 BM25: Implement using the rank_bm25 library in Python for traditional keyword-based retrieval.
 DPR (Dense Passage Retrieval): Utilize the facebook/dpr library for dense retrievals based on embeddings.
-SPIDER (Semantic Passage Retrieval): Implement using transformers like Hugging Face's transformers library for semantic retrieval.
-
 
 
 ## License
